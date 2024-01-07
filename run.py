@@ -25,13 +25,14 @@ CURRENT_DATE_FMTED = datetime.datetime.strftime(CURRENT_DATE, "%d/%m/%Y")
 
 def main_menu():
 """ 
+
   Displays the main menu options for the user
     to select in order to navigate the application.
+
 """
 clear_tmnl()
 print("Manicurist's Daybook - Main menu\n")
-
- print("Please select an option below.\n")
+print("Please select an option below.\n")
 
     print("(1) Book new appointment.")
     print("(2) View today's appointments.")
