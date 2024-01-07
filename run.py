@@ -23,7 +23,7 @@ CURRENT_DATE = datetime.date.today()
 # Places and stores the current date into the correct format for when required.
 CURRENT_DATE_FMTED = datetime.datetime.strftime(CURRENT_DATE, "%d/%m/%Y")
 
-def main_menu()
+def main_menu():
 """ 
   Displays the main menu options for the user
     to select in order to navigate the application.
