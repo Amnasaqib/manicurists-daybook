@@ -1,7 +1,6 @@
 # Import libraries.
 import os
 import datetime
-from tabulate import tabulate
 import gspread
 from google.oauth2.service_account import Credentials
 
@@ -62,5 +61,5 @@ def main_menu():
     elif main_menu_ans == ("5"):
         app_info()
 
-        
+
        
