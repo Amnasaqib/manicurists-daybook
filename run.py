@@ -1,4 +1,8 @@
 # Import libraries.
+import os
+import datetime
+import pyinputplus as pyip
+from tabulate import tabulate
 import gspread
 from google.oauth2.service_account import Credentials
 
@@ -24,12 +28,12 @@ CURRENT_DATE = datetime.date.today()
 CURRENT_DATE_FMTED = datetime.datetime.strftime(CURRENT_DATE, "%d/%m/%Y")
 
 def main_menu():
-""" 
+    """ 
 
   Displays the main menu options for the user
     to select in order to navigate the application.
 
-"""
+    """
 clear_tmnl()
 print("Manicurist's Daybook - Main menu\n")
 print("Please select an option below.\n")
